@@ -1,0 +1,79 @@
+[
+    {
+        "brand": "Average Andy's Coffee",
+        "country": "Denmark",
+        "id": 1,
+        "name": "Regular Coffee",
+        "reviews": [
+            {
+                "comment": "Could've been crispier",
+                "rating": 3,
+                "reviewer": "Chris P. Bacon"
+            }
+        ]
+    },
+    {
+        "brand": "Jimmy's Coffee",
+        "country": "America",
+        "id": 2,
+        "name": "Mocha",
+        "reviews": [
+            {
+                "comment": "What everyone should drink in the morning!",
+                "rating": 10,
+                "reviewer": "Earl Lee Riser"
+            },
+            {
+                "comment": "A genius of everything coffee",
+                "rating": 10,
+                "reviewer": "Bob"
+            }
+        ]
+    },
+    {
+        "brand": "We Did Our Best",
+        "country": "France",
+        "id": 3,
+        "name": "Latte",
+        "reviews": [
+            {
+                "comment": " a 'latte' yuckiness.",
+                "rating": 1,
+                "reviewer": "Tim Burr"
+            },
+            {
+                "comment": "Is this even coffee?",
+                "rating": 1,
+                "reviewer": "Sue Flay"
+            },
+            {
+                "comment": "The grossest thing I have ever had.",
+                "rating": 1,
+                "reviewer": "Myles Long"
+            },
+            {
+                "comment": "I dont know what the fuss is about, i dont think its too bad!",
+                "rating": 5,
+                "reviewer": "Sara Bellum"
+            }
+        ]
+    },
+    {
+        "brand": "Jimmy's Special Coffee",
+        "country": "America",
+        "id": 4,
+        "name": "Americano",
+        "reviews": [
+            {
+                "comment": "If I could rate it higher, I would!",
+                "rating": 10,
+                "reviewer": "Justin Case"
+            },
+            {
+                "comment": "He does it again!",
+                "rating": 10,
+                "reviewer": "Eileen Dover"
+            }
+        ]
+    }
+]

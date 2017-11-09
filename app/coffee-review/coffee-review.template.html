@@ -1,0 +1,28 @@
+<div class="container-fluid">
+        <h1>Coffee Reviews</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div ng-repeat="coffee in $ctrl.coffees | filter: {id: $ctrl.coffeeId}">
+                    <h3>
+                        {{coffee.brand}} - {{coffee.name}}
+                    </h3>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Reviewer</th>
+                                <th>Thoughts</th>
+                                <th>Rating</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="review in coffee.reviews">
+                                <td>{{review.reviewer}}</i></td>
+                                <td>{{review.comment}}</td>
+                                <td><i class="glyphicon glyphicon-star" ng-repeat="x in [].constructor(review.rating) track by $index"></i></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
